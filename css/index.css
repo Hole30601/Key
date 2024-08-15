@@ -1,0 +1,54 @@
+/* css/index.css */
+
+
+
+.saochepkey {
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 10px;
+    user-select: text;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: pink;
+    margin: 0;
+    margin-top: -400px;
+}
+
+.button-link {
+    margin-top: 20px;
+    padding: 5px 5px;
+    font-size: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background-color: #45a049;
+}
+
+.info {
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 10px; /* khoảng cách giữa ngày giờ và FPS */
+}
